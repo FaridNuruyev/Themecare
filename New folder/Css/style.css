@@ -1,0 +1,60 @@
+
+html,body,ul{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color: aqua;
+    height: 80px; 
+}
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    height:40px ;
+     */
+     padding-top: 20px;
+
+}
+.right>li>a{
+    margin-right: 20px;
+}
+.left{
+    display: flex;
+
+}
+.left>li>a{
+    margin-right: 10px;
+}
+.right{
+    display: flex;
+}
+.headerBottom{
+    background-color: whitesmoke;
+    height: 80px;
+    bottom:-10px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+padding: 0 20px;
+}
+.logo{
+    width: 200px;
+}
+.nav-menu>ul{
+    display: flex;
+
+}
+.nav-menu>ul>li{
+margin-right: 20px;
+}
+.action>ul{
+    display: flex;
+}
+.action>ul>li{
+    margin-right: 20px;
+}
